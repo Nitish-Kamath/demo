@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b97c8d442a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form_box">
+        <h1 id="title">Sign Up</h1>
+        <form onsubmit="return validator()" action="https://www.google.com">
+        <form onclick="" action="">
+          <div class="input_group">
+            <div class="input_field" id="nameField">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Name" id="id_name" />
+            </div>
+
+            <div class="input_field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email" id="id_email" />
+            </div>
+
+            <div class="input_field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" id="id_password" />
+            </div>
+          </div>
+
+          <p>
+            Forgot Password?
+            <a href="https://www.google.com">Click Here!</a>
+          </p>
+
+          <div class="btn_field">
+            <button type="button" id="signUpField">
+              Sign up
+            </button>
+            <button type="button" class="disable" id="signInField">
+              Sign in
+            </button>
+          </div>
+
+          <div class="sbmt">
+            <button id = "id_submit">click me</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <script src="javaScript/index.js"></script>
+  </body>
+</html>
